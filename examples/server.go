@@ -133,7 +133,6 @@ func upload(w http.ResponseWriter, r *http.Request) {
 			f.Close()
 
 			fileInfo, _ := os.Stat(tempPath)
-			log.Printf("===Writing chunk %d, file size: %d", chunk, fileInfo.Size())
 			if chunks == 0 || chunk == chunks-1 {
 				os.Rename(path+".part", path)
 			}

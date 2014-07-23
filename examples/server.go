@@ -79,9 +79,6 @@ func upload(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Pragma", "no-cache")
 
 	// Chunking might be enabled
-	// $chunk = isset($_REQUEST["chunk"]) ? intval($_REQUEST["chunk"]) : 0;
-	// $chunks = isset($_REQUEST["chunks"]) ? intval($_REQUEST["chunks"]) : 0;
-
 	var chunkStr = r.FormValue("chunk")
 	var chunksStr = r.FormValue("chunks")
 	var chunk = 0

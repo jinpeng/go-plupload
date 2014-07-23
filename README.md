@@ -1,3 +1,16 @@
+# Go-plupload
+Go to examples folder, run
+$ go run server.go
+
+Open browser and visit 
+
+http://localhost:8080/examples/custom.html
+
+Or
+
+http://localhost:8080/examples/events.html
+
+
 # Plupload
 
 Plupload is a cross-browser multi-runtime file uploading API. Basically, a set of tools that will help you to 

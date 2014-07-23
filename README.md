@@ -4,11 +4,11 @@ $ go run server.go
 
 Open browser and visit 
 
-http://localhost:8080/examples/custom.html(http://localhost:8080/examples/custom.html)
+[http://localhost:8080/examples/custom.html](http://localhost:8080/examples/custom.html)
 
 Or
 
-http://localhost:8080/examples/events.html(http://localhost:8080/examples/events.html)
+[http://localhost:8080/examples/events.html](http://localhost:8080/examples/events.html)
 
 
 # Plupload

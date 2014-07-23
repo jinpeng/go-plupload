@@ -1,4 +1,7 @@
 # Go-plupload
+
+(Based on Plupload 2.1.2)
+
 Go to examples folder, run
 $ go run server.go
 
